@@ -1,0 +1,12 @@
+position,name,color,times,per_days,start,archived
+1,Lectures,#F9A825,1,7,2017-11-25,false
+2,Drawings,#D81B60,2,7,2017-11-27,false
+3,Physical exercises,#00897B,1,7,2017-12-09,false
+4,Drink water,#039BE5,2,7,2017-11-28,false
+5,Duolingo,#E64A19,5,7,2017-12-04,false
+6,Anki,#5E35B1,5,7,2017-12-01,false
+7,Sign language,#00ACC1,5,7,2020-02-17,false
+8,Weight,#aaaaaa,1,30,2017-11-17,false
+9,Books,#303030,1,7,2017-12-17,false
+10,Programming,#AFB42B,2,7,2018-01-25,false
+11,Genealogy,#8E24AA,1,30,2019-05-15,false

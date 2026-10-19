@@ -1,0 +1,12 @@
+Position,Name,Type,Question,Description,FrequencyNumerator,FrequencyDenominator,Color,Unit,Target Type,Target Value,Archived?
+001,Lectures,YES_NO,,,1,7,#F9A825,,,,false
+002,Drawings,YES_NO,,,2,7,#D81B60,,,,false
+003,Physical exercises,YES_NO,,,1,7,#00897B,,,,false
+004,Drink water,YES_NO,,,2,7,#039BE5,,,,false
+005,Duolingo,YES_NO,,,5,7,#E64A19,,,,false
+006,Anki,YES_NO,,,5,7,#5E35B1,,,,false
+007,Sign language,YES_NO,,,5,7,#00ACC1,,,,false
+008,Weight,YES_NO,,,1,30,#aaaaaa,,,,false
+009,Books,YES_NO,,,1,7,#303030,,,,false
+010,Programming,YES_NO,,,2,7,#AFB42B,,,,false
+011,Genealogy,YES_NO,,,1,30,#8E24AA,,,,false

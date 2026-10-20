@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn the Loop Habit Tracker export ("Loop Habits CSV/") into data/habits.csv and data/<year>/*.csv."""
+"""Turn the Loop Habit Tracker export ("raw data/") into data/habits.csv and data/<year>/*.csv."""
 import csv
 import glob
 import os
@@ -7,7 +7,7 @@ import shutil
 from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW = os.path.join(ROOT, "Loop Habits CSV")
+RAW = os.path.join(ROOT, "raw data")
 DATA = os.path.join(ROOT, "data")
 
 # Loop's checkmark values -> ours. YES_AUTO is a day Loop counts as kept because the

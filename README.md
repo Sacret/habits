@@ -20,7 +20,7 @@ Pick a year with the tabs at the top or the ← / → keys. Every view works in 
 ## How it's built
 
 ```
-Loop Habits CSV/      the app's export (Settings → Export as CSV)
+raw data/            the app's export, Settings → Export as CSV (not in git)
   └─ scripts/normalize.py   →  data/habits.csv, data/<year>/{checkmarks,scores}.csv
       └─ scripts/build_page.py   →  index.html   (template: scripts/page.html)
           └─ scripts/make_og_image.py   →  og-image.jpg
@@ -36,7 +36,7 @@ Only the Python standard library is needed, plus [Pillow](https://pypi.org/proje
 ## Updating
 
 ```sh
-# replace "Loop Habits CSV/" with a fresh export, then
+# replace "raw data/" with a fresh export, then
 python3 scripts/normalize.py
 python3 scripts/build_page.py
 git add -A && git commit -m "Update data" && git push   # GitHub Pages redeploys from master
